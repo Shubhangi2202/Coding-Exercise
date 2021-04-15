@@ -1,0 +1,6 @@
+bool isSparse(int n){
+        
+       if((n&(n>>1))>=1) return 0;
+       else return 1;
+        
+    }
