@@ -1,0 +1,6 @@
+// It is useful to find no. of set bits.
+int result=0;
+While(n>0){
+  n=n&(n-1);
+  reult++;
+} print result;
